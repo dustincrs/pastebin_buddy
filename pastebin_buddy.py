@@ -120,7 +120,7 @@ class PasteManager:
 
         return tuple(content)
 
-    def list_pastes(self, target_user, results):
+    def list_pastes(self, target_user, results=10):
         params = {
                 'api_dev_key':self.dk,
                 'api_user_key':target_user,
