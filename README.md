@@ -130,9 +130,9 @@ p.raw(target_user_key, paste_key)
 ~~~
 
 The arguments are similar to the delete_paste function, but the function returns a tuple of 3 elements:
-  * [0]: target_user_key
-  * [1]: paste_key
-  * [2]: Raw data from the paste
+  * 0: target_user_key
+  * 1: paste_key
+  * 2: Raw data from the paste
   
 As usual, passing p.uk as target_user_key (and a valid paste_key) will show the raw data from your own pastes.
 
@@ -142,5 +142,5 @@ p.raw_key(paste_key)
 ~~~
 
 This function returns a two-element tuple.
-  * [0]: paste_key
-  * [1]: Raw data from the paste.
+  * 0: paste_key
+  * 1: Raw data from the paste.
