@@ -1,8 +1,8 @@
 # pastebin_buddy
-## Pastebin API control via python3
+## Pastebin API control via python3.6
 ### DISCLAIMER: This is a beginner project. This module is to be used at your own risk: there is no guarantee that the code is perfect or well optimized.
 
-Here is my take on accessing the Pastebin API using Python 3. This implementation was created with free accounts in mind, and does not support the IP whitelisting features for high-frequency scraping.
+Here is my take on accessing the Pastebin API using Python 3. This implementation was created with free accounts in mind, and does not support the IP whitelisting features for high-frequency scraping. You will need Python 3.6 or higher, as I have used string literals (f-strings, introduced in python 3.6). Alternatively, just edit the source and replace the f-strings with your method of choice (%s etc)
 
 It has two dependancies:
   * requests
